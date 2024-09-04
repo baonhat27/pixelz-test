@@ -1,0 +1,40 @@
+.sendCommentsModal {
+  .sendCommentModalContent {
+    display: flex;
+    flex-direction: column;
+
+    .firstLine {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .secondLine {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  .footerContainer {
+    display: flex;
+    justify-content: space-between;
+
+    .rightSide {
+      display: flex;
+      gap: 2px;
+    }
+  }
+
+  .modalButton {
+    padding: 8px 20px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 4px;
+  }
+
+  .sendAllButton {
+    background-color: black;
+    color: white;
+    font-weight: 700;
+  }
+}
